@@ -20,6 +20,9 @@ public class Tech {
         Tech tech = new Tech();
         System.out.println("Enter a number : ");
         int n = scanner.nextInt();
-        System.out.println(tech.is_Tech(n));
+        if(tech.is_Tech(n))
+            System.out.println(n+" is a Tech Number");
+        else
+            System.out.println(n+" is a not a Tech Number");
     }
 }
