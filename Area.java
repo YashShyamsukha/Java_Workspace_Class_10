@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
 public class Area {
-    public void findArea(int s){
+    public float findArea(int s){
         System.out.println("Area of Square with side "+s+" is "+(s*s));
     }
-    public void findArea(int len, int brd){
+    public float findArea(int len, int brd){
         System.out.println("Area of Rectangle with length "+len+"and breadth "+brd+" is "+(len*brd));
     }
-    public void findArea(float base, float height){
+    public float findArea(float base, float height){
         System.out.println("Area of Triangle with length "+base+"and breadth "+height+" is "+(base *height));
     }
-    public void findArea(float rad){
+    public float findArea(float rad){
         System.out.println("Area of Circle with side "+rad+" is "+((22/7)*rad*rad));
     }
 
